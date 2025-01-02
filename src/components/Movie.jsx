@@ -7,7 +7,7 @@ export default function Movie({ searchTerm, toggleFavourite, favourites, showFav
 {
   const [movieData, setMovieData] = useState([]);
   const key = "ef489537";
-  const baseURL = "http://www.omdbapi.com/";
+  const baseURL = "https://www.omdbapi.com/";
 
   const fetchData = async () => {
     try 
